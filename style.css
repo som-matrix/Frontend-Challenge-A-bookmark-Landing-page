@@ -780,7 +780,7 @@ footer {
         transform: translate(-50%,-50%);
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:400px){
  
   .bookamark-intro h1{
       font-size:50%;
@@ -788,12 +788,21 @@ footer {
   .tab-2 .tab-right, .tab-3 .tab-right{
       margin-left:0rem;
   }
+  .faq-headings{
+    margin:0;
+  }
   .faq-headings h2{
       font-size:1.5rem;
-      margin-right:2.5rem;
+      margin-right:4rem;
+  }
+  .faq-headings p{
+    margin:0 1.5rem;
   }
   .faq-box{
       margin:0;
+  }
+  .tab-1 .tab-right{
+    margin:0;
   }
 }
 
